@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="252" viewBox="0 0 780 252" role="img" aria-label="terminal do César">
+  <style>
+    .t { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; font-size: 14px; }
+    .bar { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; }
+    .prompt { fill: #3fb950; }
+    .cmd { fill: #e6edf3; }
+    .resp { fill: #8b949e; }
+    .dir { fill: #58a6ff; }
+    .hide { opacity: 0; }
+    @keyframes type1 { to { transform: translateX(72px); } }
+    @keyframes type2 { to { transform: translateX(72px); } }
+    @keyframes type3 { to { transform: translateX(122px); } }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+    #cover1 { animation: type1 .8s steps(7) .5s forwards; }
+    #cover2 { animation: type2 .8s steps(7) 2.6s forwards; }
+    #cover3 { animation: type3 1.0s steps(13) 4.8s forwards; }
+    #resp1 { animation: show .01s linear 1.6s forwards; }
+    #resp2 { animation: show .01s linear 3.8s forwards; }
+    #resp3 { animation: show .01s linear 6.1s forwards; }
+    #prompt4 { animation: show .01s linear 6.8s forwards; }
+    #cursor { animation: blink 1.2s step-end 6.8s infinite; opacity: 0; }
+    #statusdot { animation: pulse 2.4s ease-in-out infinite; }
+  </style>
+
+  <!-- janela -->
+  <rect x="1" y="1" width="778" height="250" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <line x1="1" y1="44" x2="779" y2="44" stroke="#21262d" stroke-width="1"/>
+
+  <!-- barra de título -->
+  <circle cx="28" cy="23" r="7" fill="#ff5f56"/>
+  <circle cx="52" cy="23" r="7" fill="#ffbd2e"/>
+  <circle cx="76" cy="23" r="7" fill="#27c93f"/>
+  <text x="390" y="27" text-anchor="middle" class="bar" fill="#8b949e">cesar@multiverso — zsh</text>
+  <circle id="statusdot" cx="700" cy="23" r="5" fill="#3fb950"/>
+  <text x="712" y="27" class="bar" fill="#3fb950">online</text>
+
+  <!-- linha 1 -->
+  <text x="24" y="76" class="t prompt">cesar@multiverso ~ %</text>
+  <text x="202" y="76" class="t cmd">whoami</text>
+  <rect id="cover1" x="200" y="60" width="74" height="22" fill="#0d1117"/>
+  <text id="resp1" x="24" y="100" class="t resp hide">Empresário &amp; builder — construo a empresa que eu opero.</text>
+
+  <!-- linha 2 -->
+  <text x="24" y="130" class="t prompt">cesar@multiverso ~ %</text>
+  <text x="202" y="130" class="t cmd">uptime</text>
+  <rect id="cover2" x="200" y="114" width="74" height="22" fill="#0d1117"/>
+  <text id="resp2" x="24" y="154" class="t resp hide">5 lojas · 1 CD · frota própria · operação 24/7 em software próprio</text>
+
+  <!-- linha 3 -->
+  <text x="24" y="184" class="t prompt">cesar@multiverso ~ %</text>
+  <text x="202" y="184" class="t cmd">ls sistemas/</text>
+  <rect id="cover3" x="200" y="168" width="124" height="22" fill="#0d1117"/>
+  <text id="resp3" x="24" y="208" class="t dir hide">erp/   pdv/   bancos/   fiscal/   infra/   ia/   central/</text>
+
+  <!-- prompt final + cursor -->
+  <text id="prompt4" x="24" y="236" class="t prompt hide">cesar@multiverso ~ %</text>
+  <rect id="cursor" x="202" y="222" width="9" height="17" fill="#e6edf3"/>
+</svg>
