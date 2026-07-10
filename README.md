@@ -4,7 +4,7 @@
 
 > Eu não vendo software. Eu opero um negócio real — lojas, centro de distribuição, frota e entrega própria — com o software que eu mesmo construo. *Skin in the game* de verdade: se o sistema falha, a loja para.
 
-## O que eu toco no dia a dia
+## O que desenvolvo no dia a dia
 
 - 🏗️ **ERP próprio** — React + Express + MongoDB + MySQL, do PDV ao DRE, moldado na operação real
 - 🏦 **Integrações bancárias** — adapter unificado multi-banco com certificado digital (PIX, boletos, extratos, conciliação)
