@@ -104,6 +104,7 @@ E tudo que acontece — decisão, tarefa, ideia, documento — vira nó de um **
 | Repo | O quê |
 |---|---|
 | [erp-multiverso](https://github.com/cesarvcanal/erp-multiverso) | a vitrine do ERP: arquitetura, princípios e história |
+| [central-de-projetos](https://github.com/cesarvcanal/central-de-projetos) | o grafo vivo de conhecimento da empresa, operado por pessoas e agentes de IA via MCP |
 | [mikrotik-wireguard-filial](https://github.com/cesarvcanal/mikrotik-wireguard-filial) | receita de loja conectada por WireGuard (split-tunnel, split-DNS, failover 4G) |
 | [whatsapp-agent-bridge](https://github.com/cesarvcanal/whatsapp-agent-bridge) | esqueleto do padrão "empresa operada por mensagem" |
 
