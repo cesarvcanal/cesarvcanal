@@ -99,12 +99,35 @@ E tudo que acontece — decisão, tarefa, ideia, documento — vira nó de um **
 
 </details>
 
+### O grafo vivo da Central de Projetos
+
+<div align="center">
+<img src="assets/central-grafo.png" width="640" alt="Grafo vivo da Central de Projetos (anonimizado)">
+<br>
+<sub>A memória da empresa como um grafo: cada ponto é um nó — decisão, tarefa, ideia, documento — operado por pessoas <b>e</b> por agentes de IA via MCP. Visualização real, anonimizada. → <a href="https://github.com/cesarvcanal/central-de-projetos">ver o projeto</a></sub>
+</div>
+
+## Do chão de loja pro palco
+
+<img src="assets/cesar-palestra.jpg" align="right" width="360" alt="César palestrando sobre IA na gestão">
+
+Também levo isso pra fora: dou palestra pra **empresários** sobre IA na gestão — como sair do zero, sem virar dev, e fazer a tecnologia trabalhar pela empresa.
+
+De uma dessas nasceu o **Diagnóstico de Maturidade em IA**: uma ferramenta aberta onde o dono responde sobre as dores reais da operação e sai com um **plano priorizado** — mais um pacote pra colar no Claude e começar na hora.
+
+**É empresário e quer descobrir onde a IA destrava a sua empresa?**
+
+→ **[Faça o diagnóstico](https://github.com/cesarvcanal/diagnostico-maturidade-ia)**
+
+<br clear="all">
+
 ## Código aberto
 
 | Repo | O quê |
 |---|---|
 | [erp-multiverso](https://github.com/cesarvcanal/erp-multiverso) | a vitrine do ERP: arquitetura, princípios e história |
 | [central-de-projetos](https://github.com/cesarvcanal/central-de-projetos) | o grafo vivo de conhecimento da empresa, operado por pessoas e agentes de IA via MCP |
+| [diagnostico-maturidade-ia](https://github.com/cesarvcanal/diagnostico-maturidade-ia) | ferramenta pro empresário descobrir onde a IA destrava a empresa dele — e sair com um plano |
 | [mikrotik-wireguard-filial](https://github.com/cesarvcanal/mikrotik-wireguard-filial) | receita de loja conectada por WireGuard (split-tunnel, split-DNS, failover 4G) |
 | [whatsapp-agent-bridge](https://github.com/cesarvcanal/whatsapp-agent-bridge) | esqueleto do padrão "empresa operada por mensagem" |
 
