@@ -102,9 +102,9 @@ E tudo que acontece — decisão, tarefa, ideia, documento — vira nó de um **
 ### O grafo vivo da Central de Projetos
 
 <div align="center">
-<img src="assets/central-grafo.png" width="640" alt="Grafo vivo da Central de Projetos (anonimizado)">
+<img src="assets/central-grafo.gif" width="680" alt="Grafo vivo da Central de Projetos se organizando (anonimizado)">
 <br>
-<sub>A memória da empresa como um grafo: cada ponto é um nó — decisão, tarefa, ideia, documento — operado por pessoas <b>e</b> por agentes de IA via MCP. Visualização real, anonimizada. → <a href="https://github.com/cesarvcanal/central-de-projetos">ver o projeto</a></sub>
+<sub>A memória da empresa como um grafo vivo: cada ponto é um nó — decisão, tarefa, ideia, documento — operado por pessoas <b>e</b> por agentes de IA via MCP. Visualização real, anonimizada. → <a href="https://github.com/cesarvcanal/central-de-projetos">ver o projeto</a></sub>
 </div>
 
 ## Do chão de loja pro palco
