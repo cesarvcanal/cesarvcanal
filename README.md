@@ -128,3 +128,19 @@ E tudo que acontece — decisão, tarefa, ideia, documento — vira nó de um **
 <div align="center">
 <sub>Feito em Minas Gerais · <b>tech@multiversoatacado.com</b></sub>
 </div>
+
+<details>
+<summary><b>🇺🇸 English version</b></summary>
+<br>
+
+**Entrepreneur & builder** — I lead technology at **Multiverso Atacado**, a multi-branch wholesale operation in Minas Gerais, Brazil 🇧🇷 that runs end to end on software built in-house.
+
+> I don't sell software. I run a real business — stores, a distribution center, our own fleet and delivery — on software I build myself. Real *skin in the game*: if the system fails, the store stops.
+
+**What I build day to day:** an ERP shaped by the real operation (not the other way around) · an offline-first POS with custom checkout flows, integrated card (TEF) and instant payments (PIX) · a banking layer that unifies every bank into one contract · our own infrastructure control-plane (deploy, DNS, VPN, monitoring with WhatsApp alerts) · AI agents that operate the ERP through MCP with the same role-based permissions as human users, plus a living knowledge graph that acts as the company's brain.
+
+**The thesis:** retail is my laboratory. **The company is the product** — every system is born from a real pain on the store floor and validated in production the next day. Tech here isn't a support area; it's the margin engine.
+
+Highlights devs usually ask about: when we needed to replace our infra panel, nothing on the market combined fleet VPN management, internal DNS, git-based deploys with rollback and WhatsApp alerting the way a multi-store retail operation needs — so we built our own control-plane, and the whole infra was running on it within a week (it now self-deploys on every push, with build gates, health checks and automatic rollback).
+
+</details>
