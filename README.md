@@ -99,6 +99,14 @@ E tudo que acontece — decisão, tarefa, ideia, documento — vira nó de um **
 
 </details>
 
+## Código aberto
+
+| Repo | O quê |
+|---|---|
+| [erp-multiverso](https://github.com/cesarvcanal/erp-multiverso) | a vitrine do ERP: arquitetura, princípios e história |
+| [mikrotik-wireguard-filial](https://github.com/cesarvcanal/mikrotik-wireguard-filial) | receita de loja conectada por WireGuard (split-tunnel, split-DNS, failover 4G) |
+| [whatsapp-agent-bridge](https://github.com/cesarvcanal/whatsapp-agent-bridge) | esqueleto do padrão "empresa operada por mensagem" |
+
 ## Atividade
 
 <picture>
